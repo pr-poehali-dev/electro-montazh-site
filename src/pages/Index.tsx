@@ -1,4 +1,3 @@
-import { Helmet } from "react-helmet";
 import HeroSection from "@/components/HeroSection";
 import ServiceCard from "@/components/ServiceCard";
 import { Button } from "@/components/ui/button";
@@ -49,11 +48,11 @@ const benefits = [
 const Index = () => {
   return (
     <>
-      <Helmet>
+      <div className="hidden">
         <title>Электрик Колпино - Профессиональные электромонтажные работы</title>
         <meta name="description" content="Услуги электрика в Колпино и Колпинском районе СПб. Вызов электрика на дом, установка розеток, замена проводки. Телефон: 8 950 030 88 30" />
         <meta name="keywords" content="электрик колпино, вызов электрика в колпино, электрик на дом колпино, электрик колпино 8 950 030 88 30, вызов электрика 89500308830 колпинский район спб" />
-      </Helmet>
+      </div>
       
       <HeroSection />
       

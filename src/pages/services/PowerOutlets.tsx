@@ -1,14 +1,13 @@
-import { Helmet } from "react-helmet";
 import { Button } from "@/components/ui/button";
 
 const PowerOutlets = () => {
   return (
     <>
-      <Helmet>
+      <div className="hidden">
         <title>Установка розеток и выключателей в Колпино - Электрик Колпино</title>
         <meta name="description" content="Профессиональная установка и замена розеток и выключателей в Колпино. Вызов электрика: 8 950 030 88 30" />
         <meta name="keywords" content="установка розеток колпино, установка выключателей колпино, электрик колпино, вызов электрика в колпино, электрик на дом колпино" />
-      </Helmet>
+      </div>
       
       <section className="relative bg-electric-800 text-white py-16">
         <div className="absolute inset-0 bg-[url('/placeholder.svg')] bg-cover bg-center opacity-20"></div>

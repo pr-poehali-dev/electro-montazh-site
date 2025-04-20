@@ -1,14 +1,13 @@
-import { Helmet } from "react-helmet";
 import { Button } from "@/components/ui/button";
 
 const LightingInstallation = () => {
   return (
     <>
-      <Helmet>
+      <div className="hidden">
         <title>Монтаж освещения в Колпино - Электрик Колпино</title>
-        <meta name="description" content="Профессиональная установка и монтаж освещения в квартирах и домах в Колпино. Вызов электрика: 8 950 030 88 30" />
-        <meta name="keywords" content="монтаж освещения колпино, установка светильников колпино, электрик колпино, вызов электрика в колпино, электрик на дом колпино" />
-      </Helmet>
+        <meta name="description" content="Профессиональная установка и монтаж освещения в Колпино. Вызов электрика: 8 950 030 88 30" />
+        <meta name="keywords" content="монтаж освещения колпино, установка люстр колпино, электрик колпино, вызов электрика в колпино, электрик на дом колпино" />
+      </div>
       
       <section className="relative bg-electric-800 text-white py-16">
         <div className="absolute inset-0 bg-[url('/placeholder.svg')] bg-cover bg-center opacity-20"></div>
@@ -18,8 +17,8 @@ const LightingInstallation = () => {
               Монтаж освещения в Колпино
             </h1>
             <p className="text-xl mb-8 text-electric-100">
-              Профессиональная установка люстр, светильников, бра и систем 
-              освещения любой сложности в Колпино и Колпинском районе.
+              Профессиональная установка люстр, светильников, бра и других осветительных приборов
+              в Колпино и Колпинском районе.
             </p>
             <Button asChild size="lg" className="bg-white text-electric-800 hover:bg-electric-100">
               <a href="tel:+79500308830">Вызвать электрика 8 950 030 88 30</a>
@@ -36,27 +35,27 @@ const LightingInstallation = () => {
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <span className="text-electric-600 font-bold">✓</span>
-                  <span>Монтаж люстр любой сложности и веса</span>
+                  <span>Установка и подключение люстр любой сложности</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-electric-600 font-bold">✓</span>
-                  <span>Установка точечных светильников и LED-панелей</span>
+                  <span>Монтаж точечных светильников в подвесной и натяжной потолок</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-electric-600 font-bold">✓</span>
-                  <span>Монтаж бра, настенных и напольных светильников</span>
+                  <span>Установка бра и настенных светильников</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-electric-600 font-bold">✓</span>
-                  <span>Установка подсветки и светодиодных лент</span>
+                  <span>Монтаж светодиодной ленты и подсветки</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-electric-600 font-bold">✓</span>
-                  <span>Монтаж уличного и садового освещения</span>
+                  <span>Установка уличного и фасадного освещения</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-electric-600 font-bold">✓</span>
-                  <span>Установка диммеров и систем "умного" освещения</span>
+                  <span>Подключение и настройка умного освещения</span>
                 </li>
               </ul>
               <div className="mt-8">
@@ -78,27 +77,27 @@ const LightingInstallation = () => {
       
       <section className="py-16 bg-muted">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-center">Виды устанавливаемых светильников</h2>
+          <h2 className="text-3xl font-bold mb-12 text-center">Преимущества нашей услуги</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <h3 className="text-xl font-bold mb-4">Потолочные светильники</h3>
+              <h3 className="text-xl font-bold mb-4">Опыт работы</h3>
               <p className="text-muted-foreground">
-                Люстры, подвесные светильники, точечные светильники, LED-панели, 
-                встраиваемые и накладные светильники.
+                Более 10 лет опыта установки осветительных приборов различной сложности
+                в жилых и коммерческих помещениях.
               </p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <h3 className="text-xl font-bold mb-4">Настенные светильники</h3>
+              <h3 className="text-xl font-bold mb-4">Профессиональный инструмент</h3>
               <p className="text-muted-foreground">
-                Бра, настенные светильники, подсветка картин и зеркал, декоративное
-                освещение стен.
+                Используем только качественный профессиональный инструмент,
+                что гарантирует аккуратность и надежность монтажа.
               </p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <h3 className="text-xl font-bold mb-4">Специальное освещение</h3>
+              <h3 className="text-xl font-bold mb-4">Гарантия на работы</h3>
               <p className="text-muted-foreground">
-                Светодиодные ленты, трековые системы, споты, уличные и садовые 
-                светильники, ландшафтное освещение.
+                Предоставляем гарантию на все виды монтажных работ и даем
+                рекомендации по эксплуатации.
               </p>
             </div>
           </div>
@@ -110,7 +109,7 @@ const LightingInstallation = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">Фотогалерея наших работ</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Примеры монтажа освещения в Колпино и Колпинском районе
+              Примеры установленного освещения в Колпино и Колпинском районе
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -130,7 +129,7 @@ const LightingInstallation = () => {
       <section className="py-16 bg-electric-800 text-white">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold mb-4">Нужен монтаж освещения?</h2>
+            <h2 className="text-3xl font-bold mb-4">Нужна установка светильников?</h2>
             <p className="text-xl mb-8">
               Звоните прямо сейчас! Работаем в Колпино, Металлострое, Понтонном, Саперном и окрестностях.
             </p>

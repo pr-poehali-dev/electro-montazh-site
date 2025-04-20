@@ -1,4 +1,3 @@
-import { Helmet } from "react-helmet";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
@@ -19,11 +18,11 @@ const Links = () => {
 
   return (
     <>
-      <Helmet>
+      <div className="hidden">
         <title>Полезные ссылки - Электрик Колпино</title>
         <meta name="description" content="Полезные ссылки на ресурсы по услугам электрика в Колпино. Телефон для вызова: 8 950 030 88 30" />
         <meta name="keywords" content="электрик колпино, вызов электрика в колпино, электрик на дом колпино, электромонтажные работы колпино" />
-      </Helmet>
+      </div>
       
       <section className="py-16 bg-muted">
         <div className="container mx-auto px-4">

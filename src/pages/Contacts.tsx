@@ -1,4 +1,3 @@
-import { Helmet } from "react-helmet";
 import { Button } from "@/components/ui/button";
 import { Phone, MessageSquare } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -6,11 +5,11 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 const Contacts = () => {
   return (
     <>
-      <Helmet>
+      <div className="hidden">
         <title>Контакты электрика в Колпино - Вызов электрика на дом</title>
         <meta name="description" content="Контакты электрика в Колпино. Телефон для вызова: 8 950 030 88 30. WhatsApp и Telegram для связи." />
         <meta name="keywords" content="электрик колпино контакты, вызов электрика в колпино, электрик на дом колпино, электрик колпино 8 950 030 88 30, вызов электрика 89500308830 колпинский район спб" />
-      </Helmet>
+      </div>
       
       <section className="bg-muted py-16">
         <div className="container mx-auto px-4">
