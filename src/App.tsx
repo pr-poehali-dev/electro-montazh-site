@@ -7,8 +7,6 @@ import Index from "./pages/Index";
 import Contacts from "./pages/Contacts";
 import Links from "./pages/Links";
 import PowerOutlets from "./pages/services/PowerOutlets";
-import WiringReplacement from "./pages/services/WiringReplacement";
-import LightingInstallation from "./pages/services/LightingInstallation";
 import NotFound from "./pages/NotFound";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -29,8 +27,6 @@ const App = () => (
               <Route path="/contacts" element={<Contacts />} />
               <Route path="/links" element={<Links />} />
               <Route path="/services/power-outlets" element={<PowerOutlets />} />
-              <Route path="/services/wiring-replacement" element={<WiringReplacement />} />
-              <Route path="/services/lighting-installation" element={<LightingInstallation />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
